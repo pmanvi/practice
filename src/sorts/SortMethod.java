@@ -83,12 +83,7 @@ public enum SortMethod {
             for(int j=0;j<a.length-i-1;j++)
                 if(a[j].compareTo(a[j+1]) > 0){
                     switched = true;
-                    /*
-                    Comparable hold = a[j];
-                    a[j] = a[j+1];
-                    a[j+1] = hold;
-                    */
-                    swap(a,j,j+1);
+                     swap(a,j,j+1);
                 }
         }
     }
